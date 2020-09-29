@@ -115,9 +115,9 @@ def find_numbers_solution(target_num: int, number_set: LookupCounter, current_wo
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description='This script solves the countdown numbers game.')
-    parser.add_argument('target', type=int, nargs=1,
+    parser.add_argument('--target', type=int, nargs=1, required=True,
                         help='The target number')
-    parser.add_argument('numbers', type=int, nargs=6,
+    parser.add_argument('--numbers', type=int, nargs=6, required=True,
                         help='The numbers available to use (six must be provided)')
     args = parser.parse_args()
 
