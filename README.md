@@ -1,6 +1,7 @@
 # countdown-numbers
 
 This python script solves the Countdown numbers game. 
+https://en.wikipedia.org/wiki/Countdown_(game_show)#Numbers_round
 
 # Usage
 
