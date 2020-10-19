@@ -10,7 +10,7 @@ You will need Python 3 installed (all classes used are part of the standard libr
 ```shell
 python countdown_numbers.py --numbers 1 2 3 4 5 100 --target 123
 ```
-and you will recieve an output on the terminal like...
+and you will recieve an output on the terminal like..
 
 ```
 Finding solution for 123...
